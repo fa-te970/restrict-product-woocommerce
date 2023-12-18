@@ -1,0 +1,56 @@
+.select-country-wrapper-edit {
+  display: flex;
+  align-items: center;
+  /* Vertically align items */
+}
+
+.select-country-wrapper > button {
+  margin-top: 0.5rem !important;
+  position: relative;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.select-country-wrapper .select2-container {
+  width: 90% !important;
+}
+
+.select-country-wrapper {
+  position: relative;
+  text-align: center;
+}
+
+.select-country-wrapper-edit #select-all-countries {
+  margin-left: 1rem;
+  white-space: nowrap;
+}
+
+.countries-tree-container {
+  border: 1px solid #7e8993;
+  padding: 1rem;
+}
+
+/* select2 */
+
+.select2-container .select2-selection--multiple ul.select2-selection__rendered {
+  overflow: visible !important;
+  text-overflow: unset !important;
+  white-space: normal !important;
+}
+
+.select2-container .select2-selection--multiple ul.select2-selection__rendered,
+.select2-selection.select2-selection--multiple.form-select.form-select-solid {
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+button.select2-selection__clear {
+  position: absolute !important;
+  top: 50% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-left: 0.5rem !important;
+}
+
+
